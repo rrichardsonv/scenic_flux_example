@@ -1,0 +1,10 @@
+{application,scenic_live_reload,
+             [{applications,[kernel,stdlib,elixir,logger]},
+              {description,"scenic_live_reload"},
+              {modules,['Elixir.ScenicLiveReload',
+                        'Elixir.ScenicLiveReload.Application',
+                        'Elixir.ScenicLiveReload.Private.GetScenePids',
+                        'Elixir.ScenicLiveReload.State']},
+              {registered,[]},
+              {vsn,"0.1.0"},
+              {mod,{'Elixir.ScenicLiveReload.Application',[]}}]}.
