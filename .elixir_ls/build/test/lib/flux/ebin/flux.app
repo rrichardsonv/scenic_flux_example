@@ -1,9 +1,0 @@
-{application,flux,
-             [{applications,[kernel,stdlib,elixir,scenic_live_reload,scenic,
-                             scenic_driver_glfw]},
-              {description,"flux"},
-              {modules,['Elixir.Flux','Elixir.Flux.Actions.Rectangle',
-                        'Elixir.Flux.Scene.Home','Elixir.Flux.Utils']},
-              {registered,[]},
-              {vsn,"0.1.0"},
-              {mod,{'Elixir.Flux',[]}}]}.
