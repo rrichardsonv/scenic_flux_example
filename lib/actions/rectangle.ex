@@ -26,7 +26,7 @@ defmodule Flux.Actions.Rectangle do
   #
   # ACTION CREATORS  -----------
   def dispatch({"R", _, _} = event), do: &rotate_rectangle(&1, event)
-  # def displatch({"G", _, _} = event), do: &grow_rectangle(&1, event)
+  # def dispatch({"G", _, _} = event), do: &grow_rectangle(&1, event)
   def dispatch(_event), do: & &1
   #
   #
