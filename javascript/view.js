@@ -12,14 +12,14 @@ function view(state) {
   // Incrememt button
   const plusButton = document.createElement("button");
   plusButton.innerText = "Add"
-  plusButton.addEventListener("click", () => state.dispatch({ type: window.actions.INCREMENT }));
+  plusButton.addEventListener("click", () => state.dispatch({ type: window._actions.INCREMENT }));
   newbaseElement.appendChild(plusButton);
 
 
   // Decrememt button
   const minusButton = document.createElement("button");
   minusButton.innerText = "Subtract"
-  minusButton.addEventListener("click", () => state.dispatch({ type: window.actions.DECREMENT }));
+  minusButton.addEventListener("click", () => state.dispatch({ type: window._actions.DECREMENT }));
   newbaseElement.appendChild(minusButton);
 
 

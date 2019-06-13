@@ -8,6 +8,66 @@
   <title>Document</title>
   <script type="application/javascript" src="./actions.js"></script>
   <script type="application/javascript" src="./view.js"></script>
+  <style>
+    #root {
+      width: 100vw;
+    }
+
+    #base {
+      height: 200px;
+      width: 500px;
+      background: #f44336c7;
+      border-radius: 5px;
+      display: flex;
+      flex-direction: column;
+      padding: 16px 32px 48px;
+      justify-content: center;
+      align-items: center;
+      margin: 64px auto;
+    }
+
+    button {
+      display: inline-block;
+      margin-bottom: 0;
+      font-weight: 600;
+      text-align: center;
+      vertical-align: middle;
+      cursor: pointer;
+      background-image: none;
+      border: 1px solid transparent;
+      white-space: nowrap;
+      padding: 10px 24px;
+      background-color: white;
+      font-size: 16px;
+      border-radius: 3px;
+    }
+
+    button:hover,
+    button:focus {
+      color: #0e0e0e;
+      text-decoration: none;
+      background-color: #f2f2f2;
+      border-color: #a9a9a9;
+    }
+
+    button:active,
+    button.active {
+      outline: 0;
+      background-image: none;
+      box-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    }
+
+    button+button {
+      margin-top: 12px;
+    }
+
+    p {
+      font-size: 32px;
+      font-weight: 700;
+
+    }
+
+  </style>
 </head>
 
 <body>
